@@ -20,6 +20,8 @@ class MixpanelData(object):
         elif (interval):
             request['interval'] = interval
 
+        if (limit):
+            request['limit'] = limit
 
         if (where):
             wherestring = ''
